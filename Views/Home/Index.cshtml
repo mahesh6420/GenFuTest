@@ -1,0 +1,13 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h2 class="display-5">Click on Respective Name and insert Data in it.</h2>
+
+    <a asp-controller="Loan" asp-action="GenFuInsertData" class="btn btn-primary">Loan Seed</a>
+    <a asp-controller="Customer" asp-action="GenFuInsertData" class="btn btn-primary">Customer Seed</a>
+    <a asp-controller="LoanAmount" asp-action="GenFuInsertData" class="btn btn-primary">LoanAmount Seed</a>
+    <a asp-controller="AccountType" asp-action="GenFuInsertData" class="btn btn-primary">AccountType Seed</a>
+    <a asp-controller="Account" asp-action="GenFuInsertData"  class="btn btn-primary">Account Seed</a>
+</div>
